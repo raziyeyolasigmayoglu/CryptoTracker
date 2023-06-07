@@ -1,7 +1,8 @@
 # Crypto Tracker
 
 This app is developed with SwiftUI.
-The app uses Gecko API. For the documentation -->  https://www.coingecko.com/en/api/documentation
+The app uses Gecko API. 
+For the documentation -->  https://www.coingecko.com/en/api/documentation
 
 The app includes a launch screen and filter and sort features for cryptocurrencies, 
 as well as a portfolio view where users can add and sort their own holdings.
