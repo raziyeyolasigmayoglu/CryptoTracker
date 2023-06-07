@@ -1,4 +1,4 @@
-# CryptoTracker
+# Crypto Tracker
 
 This app is developed with SwiftUI.
 The app uses Gecko API. For documentation -->  https://www.coingecko.com/en/api/documentation
