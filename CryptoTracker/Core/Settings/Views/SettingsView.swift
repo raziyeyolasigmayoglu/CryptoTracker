@@ -55,20 +55,18 @@ struct SettingsView_Previews: PreviewProvider {
 extension SettingsView {
     
     private var swiftfulThinkingSection: some View {
-        Section(header: Text("Swiftful Thinking")) {
+        Section(header: Text("Crypto Tracker")) {
             VStack (alignment: .leading) {
                 Image("logo")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
-                Text("This app was made by following a @SwiftfulThinking course on Youtube. It uses MVVM Architecture, Combine, and CoreData!")
+                Text("This is a crypto tracker app. It uses MVVM Architecture, Combine and CoreData!")
                     .font(.callout)
                     .fontWeight(.medium)
                     .foregroundColor(Color.theme.accent)
             }
             .padding(.vertical)
-            Link("Subscribe on Youtube 🥳", destination: youtubeURL)
-            Link("Support his coffee addiction ☕️", destination: coffeeURL)
              
         }
     }
@@ -98,7 +96,7 @@ extension SettingsView {
                     .resizable()
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
-                Text("This app was developed by Nick Sarno. It uses SwiftUI and is written 100% in Swift. The project benefits from multi-threading, publishers/subsribers and data persistance.")
+                Text("This app was developed by Raziye Yolasigmazoglu. It uses SwiftUI and is written 100% in Swift. The project benefits from multi-threading, publishers/subsribers and data persistance.")
                     .font(.callout)
                     .fontWeight(.medium)
                     .foregroundColor(Color.theme.accent)
